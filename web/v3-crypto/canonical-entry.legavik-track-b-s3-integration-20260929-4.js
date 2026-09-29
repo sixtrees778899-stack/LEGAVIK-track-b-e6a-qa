@@ -6,9 +6,9 @@
     canonicalPath:'/web/v3-crypto/index.html',
     bundleMarker:'productBundleRelease',
     scripts:[
-      {src:'../account/public-config.legavik-track-b-s3-integration-20260929-3.js'},
-      {src:'../account/account-nav-bridge.legavik-track-b-s3-integration-20260929-3.bundle.js'},
-      {src:'./product-v1.legavik-track-b-s3-integration-20260929-3.bundle.js',type:'module',id:'legavik-product-app'}
+      {src:'../account/public-config.legavik-track-b-s3-integration-20260929-4.js'},
+      {src:'../account/account-nav-bridge.legavik-track-b-s3-integration-20260929-4.bundle.js'},
+      {src:'./product-v1.legavik-track-b-s3-integration-20260929-4.bundle.js',type:'module',id:'legavik-product-app'}
     ]
   });
 })();
