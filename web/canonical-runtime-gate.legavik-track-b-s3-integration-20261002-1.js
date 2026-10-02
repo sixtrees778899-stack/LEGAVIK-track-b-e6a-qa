@@ -1,7 +1,7 @@
 (()=>{
   const canonicalOrigin='https://sixtrees778899-stack.github.io';
   const canonicalBase='/LEGAVIK-track-b-e6a-qa';
-  const deployment='legavik-track-b-s3-integration-20260929-5';
+  const deployment='legavik-track-b-s3-integration-20261002-1';
   const approvedPaths=new Set([`${canonicalBase}/web/v3-crypto/index.html`,`${canonicalBase}/web/account/index.html`,`${canonicalBase}/web/v2/index.html`,`${canonicalBase}/web/recover.html`]);
   const requestedDeployment=()=>{const query=new URLSearchParams(location.search);return query.get('release')??query.get('deployment')??query.get('deploy')??query.get('build');};
   const pageDeployment=()=>document.querySelector('meta[name="legavik-deployment"]')?.content??document.querySelector('meta[name="skrek-release"]')?.content??'';
